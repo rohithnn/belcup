@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BEL CUP 2026 Badminton Tournament – 14 June 2026 at Benaka Sports Line" />
+  <title>BEL CUP 2026 🏆 Badminton Tournament</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Bebas Neue for display, Syne for body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════
+       STICKY NAVBAR
+  ═══════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-trophy">🏆</span>
+        <span class="logo-text">BEL CUP <span class="logo-year">2026</span></span>
+      </a>
+
+      <!-- Desktop nav links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#highlights">Highlights</a></li>
+        <li><a href="#prizes">Prizes</a></li>
+        <li><a href="#fees">Register</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- CTA -->
+      <a href="#fees" class="nav-cta">Register Now</a>
+
+      <!-- Hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile menu overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#highlights" class="mobile-link">Highlights</a></li>
+      <li><a href="#prizes" class="mobile-link">Prizes</a></li>
+      <li><a href="#fees" class="mobile-link">Fees</a></li>
+      <li><a href="#rules" class="mobile-link">Rules</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+    <a href="#fees" class="btn-primary mobile-link">Register Now</a>
+  </div>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <!-- Background image via CSS; overlay via pseudo-element -->
+    <div class="hero-overlay"></div>
+    <!-- Animated shuttlecock particles -->
+    <div class="hero-particles" aria-hidden="true">
+      <span class="particle">🏸</span>
+      <span class="particle">🏸</span>
+      <span class="particle">🏸</span>
+      <span class="particle">🏸</span>
+      <span class="particle">🏸</span>
+    </div>
+
+    <div class="hero-content reveal">
+      <!-- Animated trophy -->
+      <div class="trophy-wrap">
+        <span class="trophy-icon" aria-hidden="true">🏆</span>
+        <div class="trophy-glow"></div>
+      </div>
+
+      <p class="hero-eyebrow">BHARATH NAGAR PRESENTS</p>
+      <h1 class="hero-title">BEL CUP 2026</h1>
+      <h2 class="hero-subtitle">BADMINTON TOURNAMENT</h2>
+
+      <div class="hero-meta">
+        <div class="meta-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </svg>
+          14 June 2026
+        </div>
+        <div class="meta-chip">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+            <circle cx="12" cy="10" r="3" />
+          </svg>
+          Benaka Sports Line
+        </div>
+      </div>
+
+      <!-- Countdown timer -->
+      <div class="countdown" id="countdown">
+        <div class="count-box"><span id="days">00</span><label>Days</label></div>
+        <div class="count-sep">:</div>
+        <div class="count-box"><span id="hours">00</span><label>Hours</label></div>
+        <div class="count-sep">:</div>
+        <div class="count-box"><span id="minutes">00</span><label>Mins</label></div>
+        <div class="count-sep">:</div>
+        <div class="count-box"><span id="seconds">00</span><label>Secs</label></div>
+      </div>
+
+      <div class="hero-ctas">
+        <!-- TODO: Replace with your actual Google Form URL -->
+        <a href="https://forms.gle/Du8b1BbnfCY8cXT1A" target="_blank" rel="noopener"
+          class="btn-primary glow-btn">Register Now</a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       ABOUT SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About The Event</span>
+        <h2 class="section-title">A Grand Celebration<br>of Badminton</h2>
+      </div>
+
+      <div class="about-grid reveal">
+        <div class="about-image-wrap">
+          <img src="https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?w=800&auto=format&fit=crop&q=80"
+            alt="Badminton player in action" loading="lazy" class="about-img" />
+          <div class="about-img-accent"></div>
+        </div>
+        <div class="about-text">
+          <p class="about-lead">
+            BEL CUP 2026 is a prestigious badminton tournament bringing together talented players from across the region
+            for an unforgettable day of sport, competition, and community.
+          </p>
+          <div class="organizer-card">
+            <div class="org-icon">🏘️</div>
+            <div>
+              <p class="org-label">Organized By</p>
+              <p class="org-name">Bharath Nagar 2nd Stage Residents Welfare Committee</p>
+              <p class="org-and">&amp;</p>
+              <p class="org-name">Bharath Nava Yuva Association</p>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Categories</span></div>
+            <div class="stat"><span class="stat-num">₹16K+</span><span class="stat-label">Prize Pool</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">Epic Day</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       HIGHLIGHTS SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section highlights-section" id="highlights">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What You Get</span>
+        <h2 class="section-title">Tournament Highlights</h2>
+      </div>
+
+      <div class="highlights-grid">
+        <!-- Card 1 -->
+        <div class="highlight-card reveal" style="--delay: 0s">
+          <div class="hcard-icon">🎀</div>
+          <h3>Sweat Band</h3>
+          <p>Every participant receives a premium sweat band — play hard, stay fresh.</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="highlight-card reveal" style="--delay: 0.1s">
+          <div class="hcard-icon">🍱</div>
+          <h3>Free Lunch</h3>
+          <p>Lunch provided to all players after their match. Fuel up for the victory.</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="highlight-card reveal" style="--delay: 0.2s">
+          <div class="hcard-icon">🏸</div>
+          <h3>Singles & Doubles</h3>
+          <p>Compete in individual Singles or team up for Doubles — your choice!</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="highlight-card reveal" style="--delay: 0.3s">
+          <div class="hcard-icon">💰</div>
+          <h3>Cash Prizes</h3>
+          <p>Win exciting cash prizes across all positions in both categories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       PRIZES SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section prizes-section" id="prizes">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Win Big</span>
+        <h2 class="section-title">Prize Money</h2>
+      </div>
+
+      <div class="prizes-grid">
+        <!-- Singles Prizes -->
+        <div class="prize-card reveal" style="--delay: 0s">
+          <div class="prize-card-header">
+            <span class="prize-category-icon">🏸</span>
+            <h3>Singles</h3>
+            <p>Individual Category</p>
+          </div>
+          <div class="prize-list">
+            <div class="prize-row gold">
+              <span class="medal">🥇</span>
+              <span class="prize-pos">1st Place</span>
+              <span class="prize-amt">₹3,000</span>
+            </div>
+            <div class="prize-row silver">
+              <span class="medal">🥈</span>
+              <span class="prize-pos">2nd Place</span>
+              <span class="prize-amt">₹2,000</span>
+            </div>
+            <div class="prize-row bronze">
+              <span class="medal">🥉</span>
+              <span class="prize-pos">3rd Place</span>
+              <span class="prize-amt">₹1,000</span>
+            </div>
+          </div>
+          <div class="prize-total">Total Pool: <strong>₹6,000</strong></div>
+        </div>
+
+        <!-- Doubles Prizes -->
+        <div class="prize-card prize-card--featured reveal" style="--delay: 0.15s">
+          <div class="prize-card-badge">BIGGER PRIZES</div>
+          <div class="prize-card-header">
+            <span class="prize-category-icon">🤝</span>
+            <h3>Doubles</h3>
+            <p>Pairs Category</p>
+          </div>
+          <div class="prize-list">
+            <div class="prize-row gold">
+              <span class="medal">🥇</span>
+              <span class="prize-pos">1st Place</span>
+              <span class="prize-amt">₹5,000</span>
+            </div>
+            <div class="prize-row silver">
+              <span class="medal">🥈</span>
+              <span class="prize-pos">2nd Place</span>
+              <span class="prize-amt">₹3,000</span>
+            </div>
+            <div class="prize-row bronze">
+              <span class="medal">🥉</span>
+              <span class="prize-pos">3rd Place</span>
+              <span class="prize-amt">₹2,000</span>
+            </div>
+          </div>
+          <div class="prize-total">Total Pool: <strong>₹10,000</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       REGISTRATION FEES SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section fees-section" id="fees">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Join The Battle</span>
+        <h2 class="section-title">Registration Fee</h2>
+      </div>
+
+      <div class="fees-grid">
+        <!-- Singles -->
+        <div class="fee-card reveal" style="--delay: 0s">
+          <div class="fee-icon">🏸</div>
+          <h3>Singles</h3>
+          <div class="fee-amount">
+            <span class="fee-currency">₹</span>
+            <span class="fee-number">300</span>
+          </div>
+          <p class="fee-desc">Per Player · Individual Entry</p>
+          <ul class="fee-perks">
+            <li>✅ Sweat Band included</li>
+            <li>✅ Lunch after match</li>
+          </ul>
+          <!-- TODO: Replace with your actual Google Form URL -->
+          <a href="https://forms.gle/Du8b1BbnfCY8cXT1A" target="_blank" rel="noopener"
+            class="btn-primary glow-btn">Register Singles</a>
+        </div>
+
+        <!-- Doubles -->
+        <div class="fee-card fee-card--popular reveal" style="--delay: 0.15s">
+          <div class="fee-popular-tag">Most Popular</div>
+          <div class="fee-icon">🤝</div>
+          <h3>Doubles</h3>
+          <div class="fee-amount">
+            <span class="fee-currency">₹</span>
+            <span class="fee-number">500</span>
+          </div>
+          <p class="fee-desc">Per Pair · Team of 2</p>
+          <ul class="fee-perks">
+            <li>✅ Sweat Bands (x2)</li>
+            <li>✅ Lunch for both players</li>
+          </ul>
+          <!-- TODO: Replace with your actual Google Form URL (Singles/Doubles can use same or separate forms) -->
+          <a href="https://forms.gle/Du8b1BbnfCY8cXT1A" target="_blank" rel="noopener"
+            class="btn-primary glow-btn">Register Doubles</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       RULES SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section rules-section" id="rules">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Fair Play</span>
+        <h2 class="section-title">Rules & Regulations</h2>
+      </div>
+
+      <div class="rules-glass reveal">
+        <div class="rules-top">
+          <span class="rules-shield">🛡️</span>
+          <p>All participants must adhere to the following rules. Violations may result in disqualification.</p>
+        </div>
+        <ol class="rules-list">
+          <li>
+            <span class="rule-num">01</span>
+            <div>
+              <strong>Age Requirement</strong>
+              <p>Participants must be 15 years or older to register and compete.</p>
+            </div>
+          </li>
+          <li>
+            <span class="rule-num">02</span>
+            <div>
+              <strong>Non-Refundable Entry</strong>
+              <p>Entry fees are strictly non-refundable under any circumstances.</p>
+            </div>
+          </li>
+          <li>
+            <span class="rule-num">03</span>
+            <div>
+              <strong>Punctuality</strong>
+              <p>Players must report at the venue at least 30 minutes before their scheduled match.</p>
+            </div>
+          </li>
+          <li>
+            <span class="rule-num">04</span>
+            <div>
+              <strong>Referee Authority</strong>
+              <p>The referee's decision is final and binding. No disputes will be entertained.</p>
+            </div>
+          </li>
+          <li>
+            <span class="rule-num">05</span>
+            <div>
+              <strong>Conduct</strong>
+              <p>Misconduct, unsportsmanlike behavior, or arguing with officials leads to immediate disqualification.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span class="rule-num">06</span>
+            <div>
+              <strong>Liability</strong>
+              <p>The organizers are not responsible for any personal belongings or injuries sustained during the event.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT SECTION
+  ═══════════════════════════════════════ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact cards -->
+        <div class="contacts-wrap">
+          <!-- Person 1 -->
+          <div class="contact-card reveal" style="--delay: 0s">
+            <div class="contact-avatar">KM</div>
+            <div class="contact-info">
+              <h3>Kushal S Maane</h3>
+              <a href="tel:9900577684" class="contact-number">📞 9900577684</a>
+            </div>
+            <div class="contact-actions">
+              <a href="tel:9900577684" class="contact-btn call-btn" title="Call">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" />
+                </svg>
+                Call
+              </a>
+              <a href="https://wa.me/919900577684" target="_blank" rel="noopener" class="contact-btn whatsapp-btn"
+                title="WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Person 2 -->
+          <div class="contact-card reveal" style="--delay: 0.1s">
+            <div class="contact-avatar">CR</div>
+            <div class="contact-info">
+              <h3>Chirag R</h3>
+              <a href="tel:8073095802" class="contact-number">📞 8073095802</a>
+            </div>
+            <div class="contact-actions">
+              <a href="tel:8073095802" class="contact-btn call-btn" title="Call">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" />
+                </svg>
+                Call
+              </a>
+              <a href="https://wa.me/918073095802" target="_blank" rel="noopener" class="contact-btn whatsapp-btn"
+                title="WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <!-- Person 3 -->
+          <div class="contact-card reveal" style="--delay: 0.2s">
+            <div class="contact-avatar">SP</div>
+            <div class="contact-info">
+              <h3>Samprith P</h3>
+              <a href="tel:6360509504" class="contact-number">📞 6360509504</a>
+            </div>
+            <div class="contact-actions">
+              <a href="tel:6360509504" class="contact-btn call-btn" title="Call">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l.96-.96a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z" />
+                </svg>
+                Call
+              </a>
+              <a href="https://wa.me/916360509504" target="_blank" rel="noopener" class="contact-btn whatsapp-btn"
+                title="WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z" />
+                </svg>
+                WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Venue map card -->
+        <div class="venue-card reveal" style="--delay: 0.3s">
+          <div class="venue-img-wrap">
+            <img src="https://images.unsplash.com/photo-1521537634581-0dced2fee2ef?w=700&auto=format&fit=crop&q=80"
+              alt="Badminton venue" loading="lazy" class="venue-img" />
+            <div class="venue-pin">📍</div>
+          </div>
+          <div class="venue-info">
+            <h3>Benaka Sports Line</h3>
+            <p>Bharath Nagar 2nd Stage, Bengaluru</p>
+            <a href="https://maps.google.com/?q=Benaka+Sports+Line+Bengaluru" target="_blank" rel="noopener"
+              class="btn-primary glow-btn venue-map-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Open in Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <span>🏆</span>
+        <span>BEL CUP 2026</span>
+      </div>
+      <p class="footer-tagline">Badminton Tournament · 14 June 2026 · Benaka Sports Line</p>
+      <p class="footer-copy">© BEL CUP 2026 · Organized by Bharath Nagar 2nd Stage RWC & Bharath Nava Yuva Association
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
