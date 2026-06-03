@@ -63,7 +63,7 @@ revealEls.forEach(el => revealObserver.observe(el));
 
 
 /* ── Countdown Timer ── */
-const eventDate = new Date('2026-06-14T08:00:00+05:30').getTime();
+const eventDate = new Date('2026-06-21T08:00:00+05:30').getTime();
 
 const daysEl    = document.getElementById('days');
 const hoursEl   = document.getElementById('hours');
