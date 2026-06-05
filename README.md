@@ -4,7 +4,7 @@ A static promotional website for the **BEL CUP 2026** badminton tournament, orga
 
 ## 📅 Event Details
 
-- **Date:** 14 June 2026
+- **Date:** 21 June 2026
 - **Venue:** Benaka Sports Line, Bharath Nagar 2nd Stage, Bengaluru
 
 ## 📁 Project Structure
